@@ -1,0 +1,76 @@
+{
+  "simulation settings": {
+    "simulation time (s)": 50,
+    "frame rate(hz)": 30,
+    "target radius (m)": 200,
+    "missile spawn radius (m)": 800,
+    "minimum incoming missile angle (deg)": 20
+  },
+  "viewer settings": {
+    "pixels x" : 1024,
+    "pixels y": 728
+  },
+  "default missile 1": {
+    "frequency (missiles/second)": 0.1,
+    "speed (m/s)": 100
+  },
+  "default missile 2": {
+    "frequency (missiles/second)": 0.3,
+    "speed (m/s)": 50
+  },
+  "boost missile 1": {
+    "frequency (missiles/second)": 0.2,
+    "speed (m/s)": 40,
+    "boost (m/s)": 40,
+    "boost timer (s)": 5
+  },
+  "bullet defence 1": {
+    "location (m)": -20,
+    "reload time (s)": 5,
+    "projectile speed (m/s)": 70,
+    "accuracy (%)": 90,
+    "range (m)": 250
+},
+    "bullet defence 2": {
+    "location (m)": 30,
+    "reload time (s)": 1.5,
+      "projectile speed (m/s)": 90,
+    "accuracy (%)": 70,
+    "range (m)": 150
+},
+    "bullet defence 3": {
+    "location (m)": 70,
+    "reload time (s)": 5,
+      "projectile speed (m/s)": 70,
+    "accuracy (%)": 90,
+    "range (m)": 250
+},
+    "bullet defence 4": {
+    "location (m)": 150,
+    "reload time (s)": 5,
+      "projectile speed (m/s)": 70,
+    "accuracy (%)": 90,
+    "range (m)": 250
+},
+    "bullet defence 5": {
+    "location (m)": -150,
+    "reload time (s)": 1.5,
+      "projectile speed (m/s)": 90,
+    "accuracy (%)": 70,
+    "range (m)": 150
+},
+    "seeker defence 1": {
+    "location (m)": 0,
+    "reload time (s)": 10,
+      "projectile speed (m/s)": 70,
+    "explosion radius (m)": 20,
+    "range (m)": 400
+},
+   "seeker defence 2": {
+    "location (m)": -150,
+    "reload time (s)": 10,
+      "projectile speed (m/s)": 70,
+    "explosion radius (m)": 20,
+    "range (m)": 400
+}
+}

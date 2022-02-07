@@ -1,0 +1,14 @@
+[tool.poetry]
+name = 'MissileDefenceSimulation'
+version = "0.1.0"
+description = "Prototype project of a simple defence simulation"
+authors = ["Michal van Hooft <michal.vanhooft@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1"
+imageio = "^2"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masontry.api"
